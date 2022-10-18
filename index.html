@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1: HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-text">e!</a>
+            </div>
+            <nav>
+                <a href="" class="link">Login</a>
+                <a href="" class="button">Create an account</a>
+             </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+        <h1 class="main-heading">Breakfast Places in Mumbai</h1>
+        <div class="main-content">
+            <aside>
+                <h3 class="filter-main-heading">Filters</h3>
+
+                <h4 class="filter-sub-heading">Select Location</h4>
+
+                <select name="Location" id="location" class="location">
+                    <option value="">Select Location</option>
+                    <option value="Yauatcha Mumbai">Yauatcha Mumbai</option>
+                    <option value="Masala Library by Jiggs Kalra">Masala Library by Jiggs Kalra</option>
+                    <option value="Trèsind Mumbai">Trèsind Mumbai</option>
+                    <option value="Ziya Restaurant">Ziya Restaurant</option>
+                </select>
+    
+                <h4 class="filter-sub-heading">Cuisine</h4>
+                <input type="checkbox" id="northindian" name="northindian" value="North Indian">
+                <label for="northindian"> North Indian</label><br>
+                <input type="checkbox" id="SouthIndian" name="south-indian" value="South Indian">
+                <label for="south-indian"> South Indian</label><br>
+                <input type="checkbox" id="Chinese" name="Chinese" value="Chinese">
+                <label for="Chinese"> Chinese</label><br>
+                <input type="checkbox" id="Fast Food" name="Fast Food" value="Fast Food">
+                <label for="Fast Food"> Fast Food</label><br>
+                <input type="checkbox" id="Street Food" name="Street Food" value="Street Food">
+                <label for="Street Food"> Street Food</label><br>
+
+            
+                <h4 class="filter-sub-heading">Cost For Two</h4>
+                <input type="radio" id="Less than ` 500" name="Less than ` 500" value="Less than ` 500">
+                <label for="Less than ` 500"> Less than ` 500</label><br>
+
+                <input type="radio" id="` 500 to ` 1000" name="` 500 to ` 1000" value="">
+                <label for="Less than ` 500"> Less than ` 500</label><br>
+
+                <input type="radio" id="" name="" value="` 1000 to ` 1500">
+                <label for="">` 1000 to ` 1500</label><br>
+
+                <input type="radio" id="" name="" value="` 1500 to ` 2000">
+                <label for="` 1500 to ` 2000">` 1500 to ` 2000</label><br>
+
+                <input type="radio" id="" name="` 2000+" value="2000+">
+                <label for="` 2000+">` 2000+</label><br>
+
+                <h4 class="filter-sub-heading">Sort</h4>
+                <input type="radio" id="" name="" value="">
+                <label for="">Price low to high</label><br>
+                <input type="radio" id="" name="" value="">
+                <label for="">Price high to low</label><br>
+    
+            </aside>
+            <div class="card-wrapper">
+                    <div class="card-item">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="images/shutterstock_1154073754.png" alt="The Big Chill Cakery">
+                            </div>
+                            <div class="card-writup">
+                                <h2 class="card-title">The Big Chill Cakery</h2>
+                                <p class="sub-title">FORT</p>
+                                <p class="card-text">
+                                    Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card-footer-wrapper">
+                            <div class="card-footer-item">
+                                <p class="card-footer-item-text-one">CUISINES:</p><p class="card-footer-item-text-two"> Bakery</p>
+                            </div>
+                            <div class="card-footer-item">
+                                <p class="card-footer-item-text-one">COST FOR TWO:</p><p class="card-footer-item-text-two"> ₹700</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="images/shutterstock_1154073754.png" alt="The Big Chill Cakery">
+                            </div>
+                            <div class="card-writup">
+                                <h2 class="card-title">The Bake Shop</h2>
+                                <p class="sub-title">FORT</p>
+                                <p class="card-text">
+                                    Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card-footer-wrapper">
+                            <div class="card-footer-item">
+                                <p class="card-footer-item-text-one">CUISINES:</p><p class="card-footer-item-text-two"> Bakery</p>
+                            </div>
+                            <div class="card-footer-item">
+                                <p class="card-footer-item-text-one">COST FOR TWO:</p><p class="card-footer-item-text-two"> ₹700</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class="footer-wrapper">
+                        <ul class="pagination">
+                            <li class="pagination-item"><a href="#"><</a></li>
+                            <li class="pagination-item"><a href="#">1</a></li>
+                            <li class="pagination-item"><a href="#">2</a></li>
+                            <li class="pagination-item"><a href="#">3</a></li>
+                            <li class="pagination-item"><a href="#">4</a></li>
+                            <li class="pagination-item"><a href="#">5</a></li>
+                            <li class="pagination-item"><a href="#">></a></li>
+                        </ul>
+                    </footer>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
